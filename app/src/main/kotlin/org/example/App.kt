@@ -52,15 +52,12 @@ fun main() {
 
 // TODO: Implementar las siguientes funciones:
 
-// Etapa 1
-fun calcularPromedio(nota1: Double, nota2: Double): Double {
-    // Implementar aquí
-    return 0.0
-}
 
+fun calcularPromedio(nota1: Double, nota2: Double): Double {
+    return (nota1 + nota2) / 2
+}
 fun esAprobado(nota: Double): Boolean {
-    // Implementar aquí
-    return false
+    return nota > 6.0
 }
 
 // Etapa 2
